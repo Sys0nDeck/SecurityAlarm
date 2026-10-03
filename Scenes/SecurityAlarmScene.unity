@@ -2173,6 +2173,7 @@ GameObject:
   - component: {fileID: 1610999219}
   - component: {fileID: 1610999218}
   - component: {fileID: 1610999222}
+  - component: {fileID: 1610999224}
   - component: {fileID: 1610999221}
   - component: {fileID: 1610999223}
   m_Layer: 0
@@ -2246,6 +2247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _alarmSoundController: {fileID: 1610999221}
+  _alarmZone: {fileID: 1610999224}
 --- !u!114 &1610999223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2260,6 +2262,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1854680995}
   _delay: 1
+--- !u!114 &1610999224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610999217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a71c890b29fd94e8b793d4c987d30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1750019873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2386,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 886bda76c9ab2dd459fbede11d47ce9a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c05c9952397c52b45b86a2139287929f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
